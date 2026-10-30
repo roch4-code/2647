@@ -1,0 +1,9 @@
+PUBLICAÇÃO DO SITE — JAVASCRIPT + CSS
+
+Arquivos principais separados: index.html, styles.css, app.js e products.js. As imagens necessárias para as estampas e para a versão móvel do hero estão na mesma pasta.
+
+GitHub Pages: envie todos os arquivos para a raiz do repositório e ative Pages. A aplicação usa rotas por hash nesse host e em arquivos locais; a URL inicial abre a página inicial.
+Netlify: arraste esta pasta para um deploy. _redirects mantém as rotas funcionando.
+Vercel: importe a pasta; vercel.json encaminha as rotas à aplicação.
+
+O arquivo 404.html permite que o GitHub Pages entregue a aplicação nas rotas. O site é demonstrativo: login, checkout, pagamentos, frete e pedidos ainda precisam de backend. Fotos de produtos e algumas fontes/posts usam serviços externos e requerem internet.
